@@ -27,9 +27,15 @@ function ca_job_listing_strongarm() {
   $strongarm->name = 'node_options_ca_job_listings';
   $strongarm->value = array(
     0 => 'status',
-    1 => 'promote',
   );
 
   $export['node_options_ca_job_listings'] = $strongarm;
+  $strongarm = new stdClass;
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'pathauto_node_ca_job_listings_pattern';
+  $strongarm->value = 'job-listings/[title-raw]';
+
+  $export['pathauto_node_ca_job_listings_pattern'] = $strongarm;
   return $export;
 }
