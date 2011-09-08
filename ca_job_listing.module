@@ -45,11 +45,11 @@ function ca_job_listing_action_info() {
   return array(
     'ca_job_listing_add_job_listing_admin_action' => array(
       'type' => 'user',
-      'description' => t('Add job listing admin role'),
+      'description' => t('Add job listing administrator role'),
     ),
     'ca_job_listing_remove_job_listing_admin_action' => array(
       'type' => 'user',
-      'description' => t('Remove job listing admin role'),
+      'description' => t('Remove job listing administrator role'),
     ),
     'ca_job_listing_add_job_lister_action' => array(
       'type' => 'user',
@@ -66,7 +66,7 @@ function ca_job_listing_add_job_listing_admin_action($user, $context) {
   $available_roles = user_roles(TRUE);
   $roles = $user->roles;
   foreach ($available_roles as $key => $role) {
-    if ($role == 'job listing admin') {
+    if ($role == 'job listing administrator') {
       $add_roles[$key] = $role;
     }
   }
@@ -91,7 +91,7 @@ function ca_job_listing_remove_job_listing_admin_action($user, $context) {
   $available_roles = user_roles(TRUE);
   $roles = $user->roles;
   foreach ($available_roles as $key => $role) {
-    if ($role == 'job listing admin') {
+    if ($role == 'job listing administrator') {
       $remove_roles[$key] = $role;
     }
   }

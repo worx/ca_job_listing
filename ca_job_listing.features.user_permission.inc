@@ -11,7 +11,7 @@ function ca_job_listing_user_default_permissions() {
     'name' => 'create ca_job_listings content',
     'roles' => array(
       '0' => 'job lister',
-      '1' => 'job listing admin',
+      '1' => 'job listing administrator',
     ),
   );
 
@@ -19,7 +19,7 @@ function ca_job_listing_user_default_permissions() {
   $permissions['delete any ca_job_listings content'] = array(
     'name' => 'delete any ca_job_listings content',
     'roles' => array(
-      '0' => 'job listing admin',
+      '0' => 'job listing administrator',
     ),
   );
 
@@ -28,7 +28,7 @@ function ca_job_listing_user_default_permissions() {
     'name' => 'delete own ca_job_listings content',
     'roles' => array(
       '0' => 'job lister',
-      '1' => 'job listing admin',
+      '1' => 'job listing administrator',
     ),
   );
 
@@ -36,7 +36,7 @@ function ca_job_listing_user_default_permissions() {
   $permissions['edit any ca_job_listings content'] = array(
     'name' => 'edit any ca_job_listings content',
     'roles' => array(
-      '0' => 'job listing admin',
+      '0' => 'job listing administrator',
     ),
   );
 
@@ -45,7 +45,7 @@ function ca_job_listing_user_default_permissions() {
     'name' => 'edit own ca_job_listings content',
     'roles' => array(
       '0' => 'job lister',
-      '1' => 'job listing admin',
+      '1' => 'job listing administrator',
     ),
   );
 

@@ -17,7 +17,7 @@ function ca_job_listing_default_page_manager_pages() {
       0 => array(
         'name' => 'worx_plugins_role_access',
         'settings' => array(
-          'worx_role' => 'job listing admin',
+          'worx_role' => 'job listing administrator',
         ),
         'not' => FALSE,
       ),
@@ -190,7 +190,7 @@ else {
       0 => array(
         'name' => 'worx_plugins_role_access',
         'settings' => array(
-          'worx_role' => 'job listing admin',
+          'worx_role' => 'job listing administrator',
         ),
         'not' => FALSE,
       ),
@@ -273,7 +273,7 @@ else {
       0 => array(
         'name' => 'worx_plugins_role_access',
         'settings' => array(
-          'worx_role' => 'job listing admin',
+          'worx_role' => 'job listing administrator',
         ),
         'not' => FALSE,
       ),
@@ -377,7 +377,7 @@ else {
       0 => array(
         'name' => 'worx_plugins_role_access',
         'settings' => array(
-          'worx_role' => 'job listing admin',
+          'worx_role' => 'job listing administrator',
         ),
         'not' => FALSE,
       ),
