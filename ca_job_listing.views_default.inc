@@ -22,7 +22,7 @@ function ca_job_listing_views_default_views() {
       'label' => '',
       'alter' => array(
         'alter_text' => 1,
-        'text' => '<h2 class="title">[title]</title>',
+        'text' => '<h2 class="title">[title]</h2>',
         'make_link' => 0,
         'path' => '',
         'link_class' => '',
